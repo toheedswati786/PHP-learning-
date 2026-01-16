@@ -74,6 +74,52 @@ $replacedStr = str_replace("World", "PHP", $str);
 echo "The string was: '$str'<br>";
 echo "The replaced string is: $replacedStr<br><br>";
 
+// 7. strrev() function
+echo "<h2>7. strrev()</h2>";
+echo "<p>this function reverses a string</p>";
+$str = "Hello, World!";
+$reversedStr = strrev($str);
+echo "The string was: '$str'<br>";
+echo "The reversed string is: $reversedStr<br><br>";
+
+// 8. trim() function
+echo "<h2>8. trim()</h2>";
+echo "<p>this function removes whitespace from both ends of a string</p>";
+$str = "   Hello, World!   ";
+$trimmedStr = trim($str);
+echo "The string was: '$str'<br>";
+echo "The trimmed string is: '$trimmedStr'<br><br>";
+
+// 9. explode() function
+echo "<h2>9. explode()</h2>";
+echo "<p>this function splits a string into an array based on a delimiter</p>";
+$str = "Hello, World! Welcome to PHP string manipulation.";
+$array = explode(" ", $str);
+echo "The string was: '$str'<br>";
+echo "The exploded array is:" ;
+foreach ($array as $word) {
+    echo "$word ";
+}
+echo "<br><br>";
+print_r($array);
+
+echo "<br><br>";
+
+
+// 10. substr() function
+echo "<h2>10. substr()</h2>";
+echo "<p>this function returns a portion of a string</p>";
+$str = "Hello, World!";
+$substring = substr($str, 7, 5);
+echo "The string was: '$str'<br>";
+echo "The substring is: '$substring'<br><br>";
+
+
+
+
+
+
+
 
 
 
