@@ -1,14 +1,15 @@
 <?php
-
 // it's basically making the things private which should not be publicly aviable to the user
 
-class userData{
-    private $userId = 101;
 
-    public function printId(){
-        return $this->userId;
+class userid{
+    private $userId = 10;
+    public function printData()
+    {
+        $id = $this->userId;
+        return $id;
     }
 }
 
-$print = new userData;
-echo $print->printId();
+$objects = new userid;
+echo $objects->printData();

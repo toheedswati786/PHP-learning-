@@ -33,7 +33,10 @@
                 <li><b>OOP </b>is essential for large-scale applications where you need to reuse code, keep things organized, and work in teams</li>
             </ul>
         </li>
-        <li></li>
+        <li>
+            <h2>Why abstract classes are used</h2>
+            <p>It's basically just the blue print of the class to tell the user what to do or we can say it's a rule, we first define a rule and user follows the rule by adding there own script</p>
+        </li>
     </ul>
 </body>
 </html>
