@@ -37,6 +37,11 @@
             <h2>Why abstract classes are used</h2>
             <p>It's basically just the blue print of the class to tell the user what to do or we can say it's a rule, we first define a rule and user follows the rule by adding there own script</p>
         </li>
+        <li>
+            <h2>Can we return and echo the private properties by calling them outside the class</h2>
+            <p>No we can't, to achieve this method we first have to assign the private property value to another variable then if we return it we would be able to print it directly through calling the class</p>
+        </li>
+        <li></li>
     </ul>
 </body>
 </html>
