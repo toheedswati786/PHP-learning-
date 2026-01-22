@@ -8,12 +8,10 @@ class person{
     public function __construct(array $data)
     {
         $arraySize = sizeof($data);
-        echo $arraySize;
-        echo $name = $this->name = $data[0];
-        echo PHP_EOL;
-        echo $lname = $this->lname = $data[1];
-        echo PHP_EOL;
-        echo $eyeColor = $this->eyeColor = $data[2];
+        for($i = 0; $i< $arraySize; $i++){
+            echo $this->name = $data[$i];
+            echo PHP_EOL;
+        }
         return $this;
     }
 
