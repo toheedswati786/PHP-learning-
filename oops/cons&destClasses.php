@@ -5,12 +5,18 @@ class person{
     public $lname;
     public $eyeColor;
 
-    public function __construct($data)
+    public function __construct(array $data)
     {
-        echo $name = $this->name = $data;
+        $arraySize = sizeof($data);
+        echo $arraySize;
+        echo $name = $this->name = $data[0];
+        echo PHP_EOL;
+        echo $lname = $this->lname = $data[1];
+        echo PHP_EOL;
+        echo $eyeColor = $this->eyeColor = $data[2];
         return $this;
     }
 
 }
-
-$data = new person("Eric");
+$data = array("Eric", 'Smith', 'brown');
+$data = new person($data);
