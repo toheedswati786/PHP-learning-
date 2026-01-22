@@ -1,9 +1,6 @@
 <?php
 
 class person{
-    public $name;
-    public $lname;
-    public $eyeColor;
 
     public function __construct(array $data)
     {
