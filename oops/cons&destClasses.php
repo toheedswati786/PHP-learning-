@@ -12,6 +12,7 @@ class person{
         return $this;
         }
 
+        //we can't parse any array to the destruct funciton this is just for showing that how the code actulally work
         public function __destruct(array $data)
         {
             $arraySize = sizeof($data);
